@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Тестовое задание",
+  "version": "1.0",
+  "description": "Тестовое задание",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["https://www.wildberries.ru/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
